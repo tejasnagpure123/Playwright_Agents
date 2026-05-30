@@ -1,0 +1,61 @@
+- generic [ref=e412]:
+  - banner [ref=e413]:
+    - generic [ref=e414]:
+      - generic [ref=e415]: GREENKART
+      - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e416] [cursor=pointer]:
+        - /url: https://techsmarthire.com/
+      - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e417] [cursor=pointer]:
+        - /url: https://techsmarthire.com/
+  - generic [ref=e419]:
+    - table [ref=e420]:
+      - rowgroup [ref=e421]:
+        - row "# Product Name Quantiry Price Total" [ref=e422]:
+          - cell "#" [ref=e423]
+          - cell "Product Name" [ref=e424]
+          - cell "Quantiry" [ref=e425]
+          - cell "Price" [ref=e426]
+          - cell "Total" [ref=e427]
+      - rowgroup [ref=e428]:
+        - row "Brocolli - 1 Kg 1 120 120" [ref=e429]:
+          - cell [ref=e430]:
+            - img [ref=e431]
+          - cell "Brocolli - 1 Kg" [ref=e432]:
+            - paragraph [ref=e433]: Brocolli - 1 Kg
+          - cell "1" [ref=e434]:
+            - paragraph [ref=e435]: "1"
+          - cell "120" [ref=e436]:
+            - paragraph [ref=e437]: "120"
+          - cell "120" [ref=e438]:
+            - paragraph [ref=e439]: "120"
+        - row "Cauliflower - 1 Kg 1 60 60" [ref=e440]:
+          - cell [ref=e441]:
+            - img [ref=e442]
+          - cell "Cauliflower - 1 Kg" [ref=e443]:
+            - paragraph [ref=e444]: Cauliflower - 1 Kg
+          - cell "1" [ref=e445]:
+            - paragraph [ref=e446]: "1"
+          - cell "60" [ref=e447]:
+            - paragraph [ref=e448]: "60"
+          - cell "60" [ref=e449]:
+            - paragraph [ref=e450]: "60"
+        - row "Cucumber - 1 Kg 1 48 48" [ref=e451]:
+          - cell [ref=e452]:
+            - img [ref=e453]
+          - cell "Cucumber - 1 Kg" [ref=e454]:
+            - paragraph [ref=e455]: Cucumber - 1 Kg
+          - cell "1" [ref=e456]:
+            - paragraph [ref=e457]: "1"
+          - cell "48" [ref=e458]:
+            - paragraph [ref=e459]: "48"
+          - cell "48" [ref=e460]:
+            - paragraph [ref=e461]: "48"
+    - generic [ref=e462]:
+      - generic [ref=e463]:
+        - textbox "Enter promo code" [ref=e464]
+        - button "Apply" [ref=e465] [cursor=pointer]
+      - text: "No. of Items : 3"
+      - text: "Total Amount :"
+      - generic [ref=e466]: "228"
+      - text: "Discount : 0%"
+      - text: "Total After Discount : 228"
+      - button "Place Order" [ref=e467] [cursor=pointer]

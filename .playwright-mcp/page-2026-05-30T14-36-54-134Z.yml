@@ -1,0 +1,39 @@
+- generic [ref=e900]:
+  - banner [ref=e901]:
+    - generic [ref=e902]:
+      - generic [ref=e903]: GREENKART
+      - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e904] [cursor=pointer]:
+        - /url: https://techsmarthire.com/
+      - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e905] [cursor=pointer]:
+        - /url: https://techsmarthire.com/
+  - generic [ref=e907]:
+    - table [ref=e908]:
+      - rowgroup [ref=e909]:
+        - row "# Product Name Quantiry Price Total" [ref=e910]:
+          - cell "#" [ref=e911]
+          - cell "Product Name" [ref=e912]
+          - cell "Quantiry" [ref=e913]
+          - cell "Price" [ref=e914]
+          - cell "Total" [ref=e915]
+      - rowgroup [ref=e916]:
+        - row "Brocolli - 1 Kg 3 120 360" [ref=e917]:
+          - cell [ref=e918]:
+            - img [ref=e919]
+          - cell "Brocolli - 1 Kg" [ref=e920]:
+            - paragraph [ref=e921]: Brocolli - 1 Kg
+          - cell "3" [ref=e922]:
+            - paragraph [ref=e923]: "3"
+          - cell "120" [ref=e924]:
+            - paragraph [ref=e925]: "120"
+          - cell "360" [ref=e926]:
+            - paragraph [ref=e927]: "360"
+    - generic [ref=e928]:
+      - generic [ref=e929]:
+        - textbox "Enter promo code" [ref=e930]
+        - button "Apply" [ref=e931] [cursor=pointer]
+      - text: "No. of Items : 1"
+      - text: "Total Amount :"
+      - generic [ref=e932]: "360"
+      - text: "Discount : 0%"
+      - text: "Total After Discount : 360"
+      - button "Place Order" [ref=e933] [cursor=pointer]
