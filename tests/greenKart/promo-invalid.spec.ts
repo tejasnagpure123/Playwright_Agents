@@ -16,6 +16,8 @@ test.describe('Cart & Checkout Validations', () => {
     await page.locator('button.promoBtn').click();
 
     const promoInfo = page.locator('span.promoInfo');
+    // Wait for promo response and assert invalid message
+    await expect(promoInfo).toBeVisible({ timeout: 10000 });
     await expect(promoInfo).toHaveText(/Invalid code/);
   });
 });

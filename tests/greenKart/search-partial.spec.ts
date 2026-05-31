@@ -12,7 +12,9 @@ test.describe('Search & Filters', () => {
     const search = page.locator('input[type="search"]');
     await search.fill('to');
     const visibleProducts = page.locator('.product:visible');
-    await expect(visibleProducts).toHaveCountGreaterThan(1);
+    // Playwright does not have toHaveCountGreaterThan; check numeric count instead
+    const count = await visibleProducts.count();
+    expect(count).toBeGreaterThan(1);
 
     // Verify case-insensitivity by re-entering 'To'
     await search.fill('To');
@@ -20,6 +22,7 @@ test.describe('Search & Filters', () => {
 
     // Clear search
     await search.fill('');
-    await expect(page.locator('.product')).toHaveCountGreaterThan(10);
+    const fullCount = await page.locator('.product').count();
+    expect(fullCount).toBeGreaterThan(10);
   });
 });

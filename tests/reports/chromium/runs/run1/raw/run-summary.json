@@ -1,0 +1,27 @@
+{
+  "project": "chromium",
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "tests": [
+    {
+      "file": "tests/greenKart/search-partial.spec.ts",
+      "title": "Search & Filters › Search using partial text and case-sensitivity check",
+      "status": "passed",
+      "duration_s": 5.0
+    },
+    {
+      "file": "tests/greenKart/promo-invalid.spec.ts",
+      "title": "Cart & Checkout Validations › Apply invalid promo code",
+      "status": "passed",
+      "duration_s": 11.0
+    },
+    {
+      "file": "tests/greenKart/promo-valid.spec.ts",
+      "title": "Cart & Checkout Validations › Apply valid promo code during checkout",
+      "status": "passed",
+      "duration_s": 11.8
+    }
+  ],
+  "timestamp": "2026-05-31T00:00:00Z"
+}

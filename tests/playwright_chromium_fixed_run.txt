@@ -1,0 +1,6 @@
+Running 3 tests using 3 workers
+  ok 3 [project=chromium] › tests\greenKart\search-partial.spec.ts: Search & Filters › Search using partial text and case-sensitivity check (5.0s)
+  ok 1 [project=chromium] › tests\greenKart\promo-invalid.spec.ts: Cart & Checkout Validations › Apply invalid promo code (11.0s)
+  ok 2 [project=chromium] › tests\greenKart\promo-valid.spec.ts: Cart & Checkout Validations › Apply valid promo code during checkout (11.8s)
+
+3 passed (15.5s)

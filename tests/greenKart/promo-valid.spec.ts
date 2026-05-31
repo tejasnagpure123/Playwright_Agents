@@ -16,10 +16,12 @@ test.describe('Cart & Checkout Validations', () => {
     await page.locator('button.promoBtn').click();
 
     const promoInfo = page.locator('span.promoInfo');
+    // Wait for promo response and assert success text
+    await expect(promoInfo).toBeVisible({ timeout: 10000 });
     await expect(promoInfo).toHaveText(/Code applied|Code applied ..!/);
 
     // Verify discounted total is shown
     const discounted = page.locator('span.discountAmt');
-    await expect(discounted).toBeVisible();
+    await expect(discounted).toBeVisible({ timeout: 5000 });
   });
 });
